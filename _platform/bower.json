@@ -1,0 +1,12 @@
+{
+  "name": "thrust",
+  "dependencies": {
+    "foundation-sites": "~6.3.1",
+    "motion-ui": "~1.1.0",
+    "chart.js": "^2.5.0",
+    "scroll-depth": "^1.0.0"
+  },
+  "resolutions": {
+    "jquery": "~3.2.1"
+  }
+}

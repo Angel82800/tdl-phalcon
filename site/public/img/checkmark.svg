@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 57.5 57.501" style="enable-background:new 0 0 57.5 57.501;" xml:space="preserve">
+<style type="text/css">
+.st0{fill:none;stroke:#FFF;stroke-width:6;stroke-miterlimit:10;}
+.st1{fill:none;stroke:#FFF;stroke-width:6;stroke-miterlimit:10;}
+.st0 {
+  stroke-dasharray: 200;
+  stroke-dashoffset: 200;
+  animation: dash 1s linear forwards;
+}
+.st1 {
+  stroke-dasharray: 200;
+  stroke-dashoffset: 200;
+  animation: dash 500ms linear forwards;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+</style>
+<polyline class="st0" points="14.625,26.063 25.11,36.548 51.766,9.891 "/>
+<path class="st1" d="M43.056,7.84c-0.935-0.641-1.915-1.221-2.935-1.734c-3.419-1.72-7.282-2.689-11.37-2.689
+	c-13.991,0-25.333,11.342-25.333,25.333S14.759,54.083,28.75,54.083S54.083,42.741,54.083,28.75c0-3.278-0.623-6.411-1.756-9.287"/>
+</svg>

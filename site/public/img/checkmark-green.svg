@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 57.5 57.5"><style type="text/css">  
+.st0{fill:none;stroke:#2bbb5a;stroke-width:6;stroke-miterlimit:10;}
+.st1{fill:none;stroke:#2bbb5a;stroke-width:6;stroke-miterlimit:10;}
+.st0 {
+  stroke-dasharray: 200;
+  stroke-dashoffset: 200;
+  animation: dash 1s linear forwards;
+}
+.st1 {
+  stroke-dasharray: 200;
+  stroke-dashoffset: 200;
+  animation: dash 500ms linear forwards;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+</style><polyline class="st0" points="14.6 26.1 25.1 36.5 51.8 9.9 "/><path class="st1" d="M43.1 7.8c-0.9-0.6-1.9-1.2-2.9-1.7 -3.4-1.7-7.3-2.7-11.4-2.7 -14 0-25.3 11.3-25.3 25.3S14.8 54.1 28.8 54.1 54.1 42.7 54.1 28.8c0-3.3-0.6-6.4-1.8-9.3"/></svg>

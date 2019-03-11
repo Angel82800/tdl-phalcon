@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Phalcon Vagrant</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href='//fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <style>
+    body {
+        padding-bottom: 20px;
+        font-family: Roboto, arial, sans-serif;
+    }
+
+    @media (min-width: 768px) {
+        .container {
+            max-width: 730px;
+        }
+    }
+    .header {
+        background: #2a6496;
+        padding-top: 20px;
+    }
+    .header h3 {
+        padding-bottom: 12px;
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: 40px;
+        color: #fff;
+    }
+    .intro {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+    .intro p {
+        margin-bottom: 0;
+    }
+    .btn-default, .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
+        border: none !important;
+    }
+    .file-list {
+        font-size: 16px;
+    }
+    .file-list a {
+        padding: 2px 10px;
+    }
+    .file-list a:hover {
+        background: #2a6496;
+        color: #fff;
+        text-decoration: none;
+    }
+    .file-list a.file {
+        color: #7f8c8d;
+    }
+    .file-list a.file:hover {
+        background: #7f8c8d;
+        color: #fff;
+    }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="container">
+            <div class="col-md-4">
+                <h3 class="text-center">Phalcon Vagrant</h3>
+            </div>
+            <div class="col-md-8">
+                <p class="text-center">
+                    <a class="btn btn-md btn-default" target="_blank" href="http://phalconphp.com/en/" role="button"><span class="glyphicon glyphicon-home"></span> Phalcon Homepage</a>
+                    <a class="btn btn-md btn-default" target="_blank" href="http://docs.phalconphp.com/en/latest/" role="button"><span class="glyphicon glyphicon-book"></span> Documentation</a>
+                    <a class="btn btn-md btn-default" target="_blank" href="http://forum.phalconphp.com/" role="button"><span class="glyphicon glyphicon-comment"></span> Forums</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="intro"></div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                                <div class="panel panel-default">
+                    <div class="panel-heading">Project manager</div>
+                    <div class="panel-body" style="background-color:#f9fbfb">
+                        <p>
+                            To add a VirtualHosts, checkout the <code>README.md</code> file. Projects go in <code>www/&lt;project-name&gt;/</code>
+                        </p>
+                    </div>
+
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>File name</th>
+                                <th>Owner</th>
+                                <th>Group</th>
+                                <th>Permissions</th>
+                            </tr>
+                        </thead>
+                        <tbody class="file-list">
+                                                                                                                                <tr>
+                                        <td>
+                                            <a class="folder-close" href="Thrust">
+                                                <span class="glyphicon glyphicon glyphicon-folder-close"></span>
+                                                Thrust                                            </a>
+                                        </td>
+                                                                                <td>
+                                            www-data                                        </td>
+                                        <td>
+                                            www-data                                        </td>
+                                        <td>
+                                            0775                                        </td>
+                                    </tr>
+                                                                                                                                                                <tr>
+                                        <td>
+                                            <a class="file" href="index.php">
+                                                <span class="glyphicon glyphicon glyphicon-file"></span>
+                                                index.php                                            </a>
+                                        </td>
+                                                                                <td>
+                                            www-data                                        </td>
+                                        <td>
+                                            www-data                                        </td>
+                                        <td>
+                                            0644                                        </td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>
+                                            <a class="file" href="projects-access.log">
+                                                <span class="glyphicon glyphicon glyphicon-file"></span>
+                                                projects-access.log                                            </a>
+                                        </td>
+                                                                                <td>
+                                            www-data                                        </td>
+                                        <td>
+                                            www-data                                        </td>
+                                        <td>
+                                            0644                                        </td>
+                                    </tr>
+                                                                    <tr>
+                                        <td>
+                                            <a class="file" href="projects-error.log">
+                                                <span class="glyphicon glyphicon glyphicon-file"></span>
+                                                projects-error.log                                            </a>
+                                        </td>
+                                                                                <td>
+                                            www-data                                        </td>
+                                        <td>
+                                            www-data                                        </td>
+                                        <td>
+                                            0644                                        </td>
+                                    </tr>
+                                                                                    </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

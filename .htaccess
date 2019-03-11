@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+
+	#Route to API
+	RewriteCond "%{REQUEST_URI}"  "^/v1/" 
+	RewriteCond "%{HTTP_HOST}"  "^.*api\.todyl\.com"  [NC]
+	RewriteRule  ^v1/(.*)$ /api/public/$1 [L]
+
+	#Route to Site
+	RewriteCond "%{HTTP_HOST}"  "^dev\.todyl\.com"  [OR,NC]
+	RewriteCond "%{HTTP_HOST}"  "^www\.todyl\.com"  [NC]
+	RewriteRule  ^$ /site/public/    [L]
+	RewriteRule  (.*) /site/public/$1 [L]	
+</IfModule>
